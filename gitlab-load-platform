@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-MAX_RETRY=150
+MAX_RETRY=180
 TARGET_HOST=${TARGET_HOST:-localhost}
 
 if [[ -z ${ADOP_CLI_USER} ]] || [[ -z ${ADOP_CLI_PASSWORD} ]]; then
