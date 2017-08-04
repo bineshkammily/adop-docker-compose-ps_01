@@ -41,7 +41,8 @@ sonar:
 jenkins-slave:
   volumes:
     - jenkins_slave_home:/workspace
-    - /var/run/docker.sock:/var/run/docker.sock
+    - /var/run/3.sock:/var/run/docker.sock
+    - /var/run/artifact:/var/run/artifact
 
 jenkins:
   user: root 
